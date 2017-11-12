@@ -1,0 +1,20 @@
+{
+    "name": "DofusAPI",
+    "authors": [
+        {
+            "name": "Manghao",
+            "email": "manghao@manghao.fr"
+        }
+    ],
+    "require": {
+        "illuminate/database": "*",
+        "php": ">=5.4.0",
+        "slim/slim": "^3.0",
+        "respect/validation": "^1.1"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"dofus\\": "src/"
+    	}
+    }
+}
