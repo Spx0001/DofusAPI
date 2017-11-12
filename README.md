@@ -17,13 +17,13 @@ composer install
 # Features - Edit your lang file
   * Registration by client
     * Edit C.REGISTER_INGAME : 
-     ```
-     C.REGISTER_INGAME = Boolean(true);
-     ```
+      ```
+      C.REGISTER_INGAME = Boolean(true);
+      ```
     * Edit C.REGISTER_POPUP_LINK : 
-     ```
-     C.REGISTER_POPUP_LINK = String("http://mysite.com/api/register");
-     ```
+      ```
+      C.REGISTER_POPUP_LINK = String("http://mysite.com/api/register");
+      ```
     * Edit C.CRYPTO_LINK :
       ```
       C.CRYPTO_LINK = String("http://mysite.com/api/captcha");
@@ -34,20 +34,21 @@ composer install
       ```
   * Gifts
      * Edit C.GIFTS_LINK : 
-     ```
-     C.GIFTS_LINK = String("http://mysite.com/api/gifts/%CMNT%");
-     ```
+       ```
+       C.GIFTS_LINK = String("http://mysite.com/api/gifts/%CMNT%");
+       ```
   * Servers status
     * Edit : C.ENABLE_SERVER_STATUS :
-     ```
-     C.ENABLE_SERVER_STATUS = Boolean(true);
-     ```
+      ```
+      C.ENABLE_SERVER_STATUS = Boolean(true);
+      ```
     * Edit C.PROBLEMS_LINK : 
-     ```
-     C.PROBLEMS_LINK = String("http://mysite.com/api/serverstatus/%CMNT%");
-     ```
+      ```
+      C.PROBLEMS_LINK = String("http://mysite.com/api/serverstatus/%CMNT%");
+      ```
   * RSS News
     * Edit C.RSS_LINK : 
-     ```
-     C.C.RSS_LINK = String("http://mysite.com/api/rss/%CMNT%");
-     ```
+      ```
+      C.C.RSS_LINK = String("http://mysite.com/api/rss/%CMNT%");
+      ```
+      
