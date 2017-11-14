@@ -15,7 +15,7 @@ composer install
   * Edit **src/conf/db.conf.php**
   
 # Features - Edit your lang file
-  * [Registration by client](doc/Registration)
-  * [Gifts](doc/Gifts)
-  * [Servers status](doc/ServersStatus)
-  * [RSS News](doc/NewsRSS)
+  * [Registration by client](doc/Registration.md)
+  * [Gifts](doc/Gifts.md)
+  * [Servers status](doc/ServersStatus.md)
+  * [RSS News](doc/NewsRSS.md)
