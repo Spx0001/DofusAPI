@@ -45,11 +45,11 @@ $container['notFoundHandler'] = function ($container) {
     };
 };
 
-$app->post('/register', UsersController::class . ':register');
-$app->get('/captcha', UsersController::class . ':captcha');
-$app->get('/registration_come_from/{cmntt:[a-zA-Z]+}', UsersController::class . ':registrationComeFrom');
-$app->get('/rss/{cmntt:[a-zA-Z]+}', RssController::class . ':rss');
-$app->get('/gifts/{cmntt:[a-zA-Z]+}', GiftsController::class . ':gifts');
-$app->get('/serverstatus/{cmntt:[a-zA-Z]+}', ServersController::class . ':serverStatus');
+$app->post('/{cmntt:[a-zA-Z]+}/register', UsersController::class . ':register');
+$app->get('/crypto.png', UsersController::class . ':captcha');
+$app->get('/registration_come_from.{cmntt:[a-zA-Z]+}', UsersController::class . ':registrationComeFrom');
+$app->get('/rss/rss.game.{cmntt:[a-zA-Z]+}.xml', RssController::class . ':rss');
+$app->get('/game_actions.l.{cmntt:[a-zA-Z]+}', GiftsController::class . ':gifts');
+$app->get('/serverstatus.{cmntt:[a-zA-Z]+}.xml', ServersController::class . ':serverStatus');
 
 $app->run();
