@@ -13,6 +13,7 @@ composer install
 ```
 * Configure your database logs
   * Edit **src/conf/db.conf.php**
+* Enable **rewriting url** on your web server
   
 # Features - Edit your lang file
   * [Registration by client](doc/Registration.md)
